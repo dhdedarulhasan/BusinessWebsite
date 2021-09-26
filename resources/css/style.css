@@ -1,0 +1,102 @@
+/* ======================================
+
+Template Name: Portfolio_Landing Page
+Template URI: G:\New Tutorial\WD\UY Lab\Files\02-Standard PSD\04-Veer
+Author: Dedarul Hasan
+Author URI: https://www.facebook.com/WhiteDevil2k/
+Version: 1.0
+Description: An awesome personal blog template.
+Support: mddedarulhasan@gmail.com
+Color: #31d7ce
+
+========================================*/
+
+/* ======================================
+
+CSS INDEX
+---------
+1.  Google Fonts
+2.  Common Css
+3.  Reusable
+4.  Menubar Css
+5.  Banner Css
+6.  About Css
+7.  Services Css
+8.  Work Css
+9.  Counting Css
+10. Blog Css
+11. JOIN_US Css
+12. Footer Css
+
+========================================*/
+
+/*==================================== 
+            1. Google Font Css
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/*==================================== 
+            2. Common Css
+====================================*/
+html,
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/*==================================== 
+            3. Reusable Css Start
+====================================*/
+.text-shadow {
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+/*==================================== 
+            
+        4. MENUBAR Css Start
+
+====================================*/
+.navbar,
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+/*==================================== 
+            
+        4. HEADER Css Start
+
+====================================*/
+
+header {
+  background: url(img/banner-3.jpg) center/cover no-repeat;
+}
+
+.animation-right {
+  animation: animateText 1.5s ease;
+}
+.animation-right-slow-3s {
+  animation: animateText 3s ease;
+}
+.animation-right-slow-5s {
+  animation: animateText 5s ease;
+}
+
+@keyframes animateText {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
